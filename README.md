@@ -138,7 +138,7 @@ coco/
 The script `train.py` accepts positional arguments configured via `argparse`:
 
 ```bash
-python train.py <epochs> <batch_size> <lr> <weight_decay> <embed_dim> <log_steps> <image_folder> <captions_json>
+python train.py `<epochs>` `<batch_size>` `<image_folder>`
 ```
 
 #### Example Command:
